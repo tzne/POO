@@ -36,5 +36,8 @@ public class e04 {
       System.out.println("O ponto pertence ao círculo");
     else if (Math.pow((coordXPonto - coordXCirc), 2) + Math.pow((coordYPonto - coordYCirc), 2) < raio * raio)
       System.out.println("O ponto é externo ao círculo");
+  
+
+      entrada.close();
   }
 }
